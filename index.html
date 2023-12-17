@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+  
+  <div class="container evtTarget">
+    <header class="header-site ">
+      <a class="border rounded-2 bg-danger text-light p-2 text-decoration-none me-auto" href="index.html">Farobi IT Akademya</a>
+      <button class="btn btn-danger logout me-5">Logout</button>
+      <input type="text" class=" inp-search form-control w-50" id="message-text" placeholder="Search"></input>
+      <button type="button" class="btn btn-danger  btn-post">Add</button>
+      
+      <div class="dropdown drop-wrapper">
+        <a class="btn btn-secondary drop-button  dropdown-toggle pb-2 pt-2"  href="#" role="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Dropdown link
+      </a>
+      
+      <ul class="dropdown-menu list-ul">
+        
+        
+      </ul>
+    </div>
+  </header>
+  <form class="form-site">
+    <div class="form-wrap  d-block bg-dark p-4 rounded-3 text-light w-50">
+      
+      <div class="wrapper-children">
+        <div class="mb-3">
+          <label for="recipient-name" class="col-form-label ">firstName</label>
+          <input type="text" class="form-control Firstname" id="recipient-name" required>
+        </div>
+        <div class="mb-3">
+          <label for="recipient-name" class="col-form-label ">lastName</label>
+          <input type="text" class="form-control Lastname" id="recipient-name" required>
+        </div>
+        <div class="mb-3">
+          <label for="recipient-name" class="col-form-label">avatar</label>
+          <input type="text" class="form-control Image" id="recipient-name" required>
+          
+        </div>
+        <div class="mb-3">
+          <label for="recipient-name" class="col-form-label">isMerid</label>
+          <input type="text" class="form-control Ismerid" id="recipient-name" required>
+        </div>
+        <div class="mb-3">
+          <label for="message-text" class="col-form-label">email</label>
+          <input type="text" class="form-control Email" id="message-text" required></input>
+        </div>
+        <div class="mb-3">
+          <label for="recipient-name" class="col-form-label">phoneNumber</label>
+          <input type="text" class="form-control Tel" id="recipient-name" required>
+        </div>
+      </div>
+      
+      <button type="button" class="btn btn-closee btn-secondary">Close</button>
+      <button  type="submit" class="btn-submit btn btn-primary" >submit</button>
+      
+    </div>
+    
+    <div class="card-wrapper row row-cols-1 row-cols-md-3 justify-content-between  g-4">
+       
+    </div>
+  </form>
+
+</div>
+
+<div class="loading ">
+  <div class="loading-wrapper">
+    <div class="min-wrapper">
+      <span class="span"></span>
+      <p class="loading-text">Loading... Juki kutibtur kazyol</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
